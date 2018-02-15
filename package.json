@@ -1,0 +1,30 @@
+{
+  "name": "base-npm-module",
+  "version": "0.1.0",
+  "description": "Estructura base para la creación de módulos npm",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+	"build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-xisto/base-npm-module.git"
+  },
+  "keywords": [
+    "npm",
+    "modules",
+    "packaje",
+    "base"
+  ],
+  "author": "E-XISTO Diseño web SL <info@existo.es> (https://www.existo.es)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e-xisto/base-npm-module/issues"
+  },
+  "homepage": "https://github.com/e-xisto/base-npm-module#readme",
+  "devDependencies": {
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }  
+}
